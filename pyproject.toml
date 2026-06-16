@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "promptlint"
+name = "llm-promptlint"
 version = "0.1.0"
 description = "ESLint for your LLM prompts — catch prompt-injection risks, missing token limits, and prompt anti-patterns before you ship."
 readme = "README.md"

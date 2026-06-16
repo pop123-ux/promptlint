@@ -35,8 +35,10 @@ promptlint: 4 issue(s) in 1 file(s) — 1 error, 2 warning, 1 info
 ## Install
 
 ```bash
-pip install promptlint
+pip install llm-promptlint
 ```
+
+> The PyPI package is **`llm-promptlint`** (the name `promptlint` was taken); the command and import stay `promptlint`.
 
 Or run straight from source (no dependencies, pure stdlib):
 
@@ -97,7 +99,7 @@ Now every commit is scanned, and insecure prompts never make it in.
 ```yaml
 - uses: actions/setup-python@v5
   with: { python-version: "3.x" }
-- run: pip install promptlint
+- run: pip install llm-promptlint
 - run: promptlint . --strict
 ```
 
