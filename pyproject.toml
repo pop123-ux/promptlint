@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "promptlint"
+version = "0.1.0"
+description = "ESLint for your LLM prompts — catch prompt-injection risks, missing token limits, and prompt anti-patterns before you ship."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "pop123-ux" }]
+keywords = ["llm", "prompt", "linter", "ai", "security", "prompt-injection", "static-analysis", "pre-commit", "openai", "anthropic"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Security",
+]
+
+[project.urls]
+Homepage = "https://github.com/pop123-ux/promptlint"
+Issues = "https://github.com/pop123-ux/promptlint/issues"
+
+[project.scripts]
+promptlint = "promptlint.cli:main"
+
+[tool.setuptools]
+packages = ["promptlint"]

@@ -1,0 +1,7 @@
+- id: promptlint
+  name: promptlint
+  description: Lint LLM prompts for injection risks, missing token limits, and anti-patterns.
+  entry: promptlint
+  language: python
+  types: [text]
+  pass_filenames: true
