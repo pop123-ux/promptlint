@@ -14,6 +14,8 @@ You lint your code. Why not the prompts your code sends to the model?
 
 ⭐ **If this catches even one bug for you, star the repo so others find it.**
 
+![promptlint demo](demo/promptlint-demo.gif)
+
 </div>
 
 ---
